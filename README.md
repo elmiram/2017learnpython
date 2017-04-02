@@ -15,13 +15,19 @@
   </tr>
   <tr>
     <td>1.</td>
-    <td>- <a href="https://github.com/elmiram/2017learnpython/blob/master/11%20Flask%20intro.ipynb">Flask Intro</a><br>
-        - Про итоговый проект</td>
-    <td>                                          <br>
+    <td>
+        - <a href="https://github.com/elmiram/2017learnpython/blob/master/Course_Info.md">Обзор модуля</a><br>
+        - <a href="https://github.com/elmiram/2017learnpython/blob/master/11%20Flask%20intro.ipynb">Flask Intro</a>
+    </td> 
+    <td>
+        <br>
         <b>1 гр.</b> - 04.04.2017 ВТ 16:40 - 18:00<br>
-        <b>2 гр.</b> - 03.04.2017 ПН 10:30 - 11:50</td>
-    <td>ДЗ в конце конспекта<br>
+        <b>2 гр.</b> - 03.04.2017 ПН 10:30 - 11:50
+    </td>
+    <td>
+        ДЗ в конце конспекта<br>
         11.04.2017<br>
-        10.04.2017</td>
+        10.04.2017
+    </td>
   </tr>
 </table>
