@@ -30,4 +30,20 @@
         10.04.2017
     </td>
   </tr>
+  <tr>
+    <td>2.</td>
+    <td>
+        <a href="https://github.com/elmiram/2017learnpython/blob/master/11%20Flask%20intro.ipynb">Flask продолжение, Pymystem3</a>
+    </td> 
+    <td>
+        <br>
+        <b>1 гр.</b> - 11.04.2017 ВТ 16:40 - 18:00<br>
+        <b>2 гр.</b> - 10.04.2017 ПН 10:30 - 11:50
+    </td>
+    <td>
+        ДЗ в конце конспекта<br>
+        18.04.2017<br>
+        17.04.2017
+    </td>
+  </tr>
 </table>
