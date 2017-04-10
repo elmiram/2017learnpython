@@ -33,7 +33,7 @@
   <tr>
     <td>2.</td>
     <td>
-        <a href="https://github.com/elmiram/2017learnpython/blob/master/11%20Flask%20intro.ipynb">Flask продолжение, Pymystem3</a>
+        <a href="https://github.com/elmiram/2017learnpython/blob/master/12%20flask%20continued%2C%20pymystem.ipynb">Flask продолжение,<br> Pymystem3</a>
     </td> 
     <td>
         <br>
