@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Части речи слов</title>
+	<style>
+		.pos {vertical-align: sub; color: blue; font-size: 70%;}
+		.result {font-size: 24px;}
+	</style>
+</head>
+<body>
+	<form method='post'>
+		<h1>Ваш текст:</h1>
+		<textarea rows="4" cols="50" name="text">{{ input }}</textarea>
+		<br>
+		<input type="submit" value="Разобрать">
+	</form>
+
+	{% if text %}
+		<h1>Разбор:</h1>
+		<p class="result"> {{ text | safe}}</p>
+	{% endif %}
+
+</body>
+</html>
