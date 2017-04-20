@@ -60,4 +60,18 @@
         ---
     </td>
   </tr>
+  <tr>
+    <td>4.</td>
+    <td>
+        <a href="https://github.com/elmiram/2017learnpython/blob/master/14%20VK.ipynb">VK API</a>
+    </td> 
+    <td>
+        <br>
+        <b>1 гр.</b> - 21.04.2017 ПТ 15:10 - 16:30<br>
+        <b>2 гр.</b> - 21.04.2017 ПТ 16:40 – 18:00
+    </td>
+    <td>
+        ---
+    </td>
+  </tr>
 </table>
