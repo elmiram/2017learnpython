@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Города участников</title>
+</head>
+<body>
+<a href="/">На главную.</a>
+	<form method='post'>
+		<h1>Название группы (ID)</h1>
+		<input type="text" placeholder="Например, schooloflinguistics" name="group_id">
+		<br>
+		<input type="submit" value="Получить список городов">
+		<p>Если в группе больше 10 тысяч человек, выполнение запроса может занять несколько минут.</p>
+	</form>
+
+	{% if cities %}
+		<h1>Группа: {{ group_id }}</h1>
+		<ul>
+		{% for city, number in cities %}
+			<li>{{ city }} - {{ number }}</li>
+		{% endfor %}
+		</ul>
+	{% endif %}
+
+</body>
+</html>
