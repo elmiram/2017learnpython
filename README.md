@@ -75,4 +75,18 @@
         30.04.2017
     </td>
   </tr>
+  <tr>
+    <td>4.</td>
+    <td>
+        <a href="https://github.com/elmiram/2017learnpython/blob/master/15%20Flask%2BGCharts.ipynb">Google Charts</a>
+    </td> 
+    <td>
+        <br>
+        <b>1 гр.</b> - 25.04.2017 ВТ 15:10 - 16:30<br>
+        <b>2 гр.</b> - 24.04.2017 ПН 10:30 - 11:50
+    </td>
+    <td>
+        ---
+    </td>
+  </tr>
 </table>
