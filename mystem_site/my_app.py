@@ -1,7 +1,7 @@
 from flask import Flask
-from flask import url_for, render_template, request, redirect
+from flask import render_template, request
 from pymystem3 import Mystem
-from collections import Counter
+from collections import Counter, defaultdict
 import json
 import requests
 
@@ -13,12 +13,14 @@ app = Flask(__name__)
 def add_POS(text):
     result = ''
     ana = m.analyze(text)
+    d = defaultdict(int)
     for i in ana:
         result += i['text']
         if i['text'].strip() and 'analysis' in i and i['analysis']:
             pos = i['analysis'][0]['gr'].split('=')[0].split(',')[0]
+            d[pos] += 1
             result += '<span class="pos">{}</span>'.format(pos)
-    return result
+    return result, d
 
 
 def vk_api(method, **kwargs):
@@ -52,9 +54,10 @@ def get_cities(group):
 def pos_text():
     if request.form:
         text = request.form['text']
-        result = add_POS(text).replace('\n', '<br>')
-        return render_template('mystem_page.html', input=text, text=result)
-    return render_template('mystem_page.html')
+        result, d = add_POS(text)
+        result = result.replace('\n', '<br>')
+        return render_template('mystem_page.html', input=text, text=result, data=d)
+    return render_template('mystem_page.html', data={})
 
 
 @app.route('/cities', methods=['get', 'post'])
