@@ -90,4 +90,18 @@
         14.05.2017
     </td>
   </tr>
+  <tr>
+    <td>5.</td>
+    <td>
+        <a href="https://github.com/elmiram/2017learnpython/blob/master/16.%20Pymorphy2.ipynb">Pymorphy2</a>
+    </td> 
+    <td>
+        <br>
+        <b>1 гр.</b> - 16.05.2017 ВТ 15:10 - 16:30<br>
+        <b>2 гр.</b> - 15.05.2017 ПН 10:30 - 11:50
+    </td>
+    <td>
+    </td>
+  </tr>
 </table>
+
