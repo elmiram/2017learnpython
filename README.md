@@ -106,7 +106,7 @@
   <tr>
     <td>6.</td>
     <td>
-        <a href="">Cognitive Services</a>
+        <a href="https://github.com/elmiram/2017learnpython/blob/master/17.%20Cognitive%20Services.ipynb">Cognitive Services</a>
     </td> 
     <td>
         <br>
