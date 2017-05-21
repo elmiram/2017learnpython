@@ -106,7 +106,7 @@
   <tr>
     <td>6.</td>
     <td>
-        <a href="">...</a>
+        <a href="">Cognitive Services</a>
     </td> 
     <td>
         <br>
@@ -119,7 +119,7 @@
   <tr>
     <td>7.</td>
     <td>
-        <a href="">...</a>
+        <a href="">NLTK</a>
     </td> 
     <td>
         <br>
@@ -132,7 +132,7 @@
   <tr>
     <td>8.</td>
     <td>
-        <a href="">...</a>
+        <a href="">CSS + Bootstrap</a>
     </td> 
     <td>
         <br>
